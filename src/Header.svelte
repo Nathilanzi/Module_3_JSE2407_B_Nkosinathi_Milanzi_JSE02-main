@@ -91,3 +91,17 @@
       </div>
     </nav>
   </header>
+
+  <style>
+    :global(.sticky) {
+      position: sticky;
+    }
+  
+    :global(.top-0) {
+      top: 0;
+    }
+  
+    :global(.z-50) {
+      z-index: 50;
+    }
+  </style>

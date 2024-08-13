@@ -28,7 +28,7 @@
     
     fetchCategories();
     </script>
-
+    
     <style>
        .product-list {
     display: grid;

@@ -23,6 +23,7 @@
     fetchProduct();
   });
 </script>
+
 <style>
   .product-detail {
     max-width: 100%; /* Ensures the container can use the full width of the screen */

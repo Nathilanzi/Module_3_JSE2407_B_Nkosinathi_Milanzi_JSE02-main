@@ -17,3 +17,15 @@
     fetchProducts();
   });
 </script>
+
+<Router>
+  <Header />
+  <div class="container">
+    <Route path="/" let:params>
+      <ProductList {products} />
+    </Route>
+    <Route path="/product/:id" let:params>
+      <ProductDetail {params} />
+    </Route>
+  </div>
+</Router>

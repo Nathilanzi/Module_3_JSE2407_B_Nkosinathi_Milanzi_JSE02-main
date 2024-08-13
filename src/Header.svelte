@@ -73,3 +73,9 @@
                 </svg>
               </Link>
             </li>
+            <li class="lg:hidden md:hidden">
+              <Link to="/cart" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700">
+                Cart
+              </Link>
+            </li>
+            <li>

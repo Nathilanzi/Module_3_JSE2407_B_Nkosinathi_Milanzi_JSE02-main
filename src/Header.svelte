@@ -41,7 +41,7 @@
             />
           </svg>
         </button>
-
+  
         <div class={`w-full md:block md:w-auto ${showNavbar ? '' : 'hidden'}`} id="navbar-dropdown">
           <ul class="flex flex-col mt-4 border border-gray-100 rounded-lg bg-gray-500 md:space-x-8 md:flex-row md:mt-0 md:border-0 p-4 md:p-0">
             <li>
